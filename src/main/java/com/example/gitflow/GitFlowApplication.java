@@ -15,6 +15,6 @@ public class GitFlowApplication {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello";
+        return "hello git-flow";
     }
 }
